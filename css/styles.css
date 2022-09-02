@@ -132,7 +132,12 @@ img {
 }
 
 
-/* .contacts-item {} */
+/* .contacts-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: center;
+}  */
 
 .contacts-link {
     color: inherit;
@@ -141,12 +146,16 @@ img {
     letter-spacing: 0.02em;
     padding-top: 32px;
     padding-bottom: 32px;
-    display: inline-block;
+    display: flex;
 }
 
 .contacts-link:hover,
 .contacts-link:focus{
     color: var(--accent-text-color);
+}
+
+.mail-icon{
+    fill: currentColor;
 }
 
 /**

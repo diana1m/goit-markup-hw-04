@@ -95,8 +95,13 @@ img {
     font-weight: 700;
     font-size: 26px;
     line-height: calc(31 / 26);
-    margin-right: 93px;
     display: block;
+}
+
+.header .logo{
+    margin-right: 93px;
+    padding-top: 24px;
+    padding-bottom: 24px;
 }
 
 .logo-part {
@@ -289,7 +294,9 @@ img {
   |============================
 */
 
-/* .about {} */
+.about {
+    margin-bottom: 94px;
+} 
 
 .about-title,
 .team-title,
@@ -447,7 +454,6 @@ img {
 
 .footer .logo {
     margin-bottom: 20px;
-    margin-right: 0px;
 }
 
 .adr {
